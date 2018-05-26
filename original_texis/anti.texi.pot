@@ -1,0 +1,275 @@
+# Japanese translation of Emacs-25.2 editor manual
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Emacs package.
+# Ayanokoji Takesi <ayanokoji.takesi@gmail.com>.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 25.2\n"
+"POT-Creation-Date: 2018-05-10 00:42+0900\n"
+"PO-Revision-Date: 2016-10-02 19:21+0900\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: node
+#: anti.texi:6
+#, no-wrap
+msgid "Antinews"
+msgstr "Antinews"
+
+#. type: appendix
+#: anti.texi:7
+#, fuzzy, no-wrap
+#| msgid "Emacs 24 Antinews"
+msgid "Emacs 25 Antinews"
+msgstr "Emacs 24 アンチニュース"
+
+#. type: Plain text
+#: anti.texi:14
+#, fuzzy
+#| msgid ""
+#| "For those users who live backwards in time, here is information about "
+#| "downgrading to Emacs version 24.5.  We hope you will enjoy the greater "
+#| "simplicity that results from the absence of many Emacs @value{EMACSVER} "
+#| "features."
+msgid ""
+"For those users who live backwards in time, here is information about "
+"downgrading to Emacs version 25.3.  We hope you will enjoy the greater "
+"simplicity that results from the absence of many @w{Emacs @value{EMACSVER}} "
+"features."
+msgstr ""
+"時代に逆らって生きるユーザーのために、以下はEmacsバージョン24.5へのダウング"
+"レードに関する情報です。Emacs @value{EMACSVER}機能の不在による結果としての偉"
+"大なる単純さを、ぜひ堪能してください。"
+
+#. type: itemize
+#: anti.texi:25
+msgid ""
+"Emacs no longer defaults to requiring the GnuTLS library when you build it.  "
+"Those who want the TLS functionality built-in will have to explicitly "
+"request it at build time---or forever hold their peace.  We decided that "
+"having the TLS functionality doesn't justify annoying users or package "
+"builders with error messages about libgnutls absence.  We also decided that "
+"if you do build with GnuTLS, we will allow versions of the library older "
+"than 2.12.2, as that version will become less and less available/popular as "
+"you move farther back in time."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:34
+msgid ""
+"For similar reasons, we've reverted back to building our own version of "
+"@command{movemail} that retrieves POP3 mail as clear text via insecure "
+"channels.  As you move back in time, the availability of secure alternatives "
+"to POP3 will diminish, and we are only keen to support that.  We've also "
+"removed the @option{--with-mailutils} configure-time option, as it no longer "
+"makes sense for the observable past."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:43
+msgid ""
+"We have removed support for @command{systemd} and similar services: we no "
+"longer provide a user init file for enabling Emacs support via those "
+"services, and we removed from the Emacs server the socket-launching support "
+"important for Emacs client operation under these services.  Again, these "
+"services will lose popularity as you move back in time, so the code "
+"supporting them will be just dead code, bloating Emacs unnecessarily."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:47
+msgid ""
+"Reproducible builds of Emacs are no longer supported, as past development "
+"will make that unnecessary."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:52
+#, fuzzy
+#| msgid ""
+#| "Support for Cairo drawing has been removed.  On GNU and Unix systems, you "
+#| "now have only one drawing engine---the venerable X Window system.  No "
+#| "need to procrastinate on the dilemma whether you do or don't want the new "
+#| "shiny Cairo thing.  Hail, simplicity!"
+msgid ""
+"The @option{--fg-daemon} is gone, leaving only @option{--daemon}.  No need "
+"to procrastinate on the dilemma whether you do or do not want the new shiny "
+"``headless Emacs'' thingy.  Hail, simplicity!"
+msgstr ""
+"Cairoによる描画サポートは削除されました。今やGNUおよびUnixシステムでは、ただ1"
+"つの描画エンジン --- 伝統あるXウィンドウシステムだけになります。新しい光り輝"
+"くCairoを望むべきか、望まぬべきかというジレンマで思い悩む必要はなくなりまし"
+"た。Hail, simplicity!(単純さ、万歳!)"
+
+#. type: itemize
+#: anti.texi:60
+msgid ""
+"As text terminals supporting true color will lose ground as you move back in "
+"time, we've removed support for 24-bit colors on text terminals.  If you "
+"want colors on a text terminal, you should be fine with just 8 of them.  "
+"(Truth being told, we think text terminals should be monochrome, but you "
+"will have to keep downgrading to older Emacs versions to have that feature "
+"back.)"
+msgstr ""
+
+#. type: itemize
+#: anti.texi:68
+msgid ""
+"Emacs 25.3 no longer supports magic signatures of the form @samp{#!/usr/bin/"
+"env @var{interpreter}} in scripts.  Moving back in time means you are "
+"getting closer to the ideal of the original Unix design where all the "
+"interpreters lived in a single directory @file{/bin}, so this fancy feature "
+"is simply becoming unnecessary ballast."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:78
+msgid ""
+"The double-buffering feature of Emacs display on X has been removed.  We "
+"decided that its complexity and a few random surprising side-effects aren't "
+"justified by the gains, even though those gains were hailed in some "
+"quarters.  Yes, Emacs 25.3 will flicker in some use cases, but we are sure "
+"Emacs users will be able to suck it, as they have been doing for years.  "
+"Since this feature is gone, we've also removed the @code{inhibit-double-"
+"buffering} frame parameter, which is now unnecessary."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:87
+msgid ""
+"Non-breaking hyphens and ASCII characters displayed instead of unsupported "
+"quote characters are now again displayed using the @code{escape-glyph} "
+"face.  We think having a single face instead of 3 different ones will make "
+"Emacs customization a much simpler job for users.  For the same reason, "
+"we've removed the @code{header-line-highlight} face, leaving just "
+"@code{highlight} for any element of the Emacs display besides the mode line."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:95
+msgid ""
+"You can no longer disable attempts of recovery from fatal exceptions such as "
+"C stack overflows and fatal signals.  Since the recovery included in Emacs "
+"is reliable enough, we decided there was no reason to put your edits in "
+"danger of becoming lost when these situations happen.  The variables "
+"@code{attempt-stack-overflow-recovery} and @code{attempt-orderly-shutdown-on-"
+"fatal-signal} are therefore removed."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:104
+msgid ""
+"The @code{list-timers} command was removed, as we decided timers are not a "
+"user-level feature, and therefore users should not be allowed to mess with "
+"them.  Ask an Emacs Lisp guru near you for help if you have a runaway timer "
+"in your session.  (Of course, as you move back in time, such runaway timers "
+"will become less and less frequent, and actually timers might start shutting "
+"down automatically, as they cannot cope with time reversal.)"
+msgstr ""
+
+#. type: itemize
+#: anti.texi:111
+msgid ""
+"Horizontal scrolling using the mouse or touchpad has been removed.  In the "
+"past, wide monitors will become less popular, so horizontal scrolling will "
+"no longer be needed.  Removal of the mouse support for horizontal scrolling "
+"is the first step towards its complete removal in prior Emacs versions."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:116
+msgid ""
+"We have found the @option{--tramp} option of @command{emacsclient} too risky "
+"and too complicated, so we removed it to simplify the client code and its "
+"usage."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:121
+msgid ""
+"The @code{display-raw-bytes-as-hex} variable is gone, so raw bytes can only "
+"be displayed as octal escapes.  Emacs users should be able to convert from "
+"octal to any other base in their sleep!"
+msgstr ""
+
+#. type: itemize
+#: anti.texi:129
+msgid ""
+"Displaying line numbers for a buffer is only possibly using add-on features, "
+"such as @code{linum-mode}, which can only display the numbers in the display "
+"margins.  Line-number display using these features is also slow, as we "
+"firmly believe such a feature is un-Emacsy and should not have been included "
+"in Emacs to begin with.  Consequently, @code{display-line-numbers-mode} was "
+"removed."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:137
+msgid ""
+"On our permanent quest for simplifying Emacs, we've removed the support for "
+"passing command-line arguments and options to Emacs via the @option{--"
+"alternate-editor} option of @command{emacsclient} and @env{ALTERNATE_EDITOR} "
+"environment variable.  There's only one True Emacs---the one that comes up "
+"when invoked as @kbd{emacs}, no need for all those fancy options!"
+msgstr ""
+
+#. type: itemize
+#: anti.texi:144
+msgid ""
+"The complication known as ``single-line horizontal scrolling'' is no longer "
+"with you in Emacs 25.3.  This feature was a bow to ``other editors''; "
+"instead, let those other editors bow to Emacs by hscrolling the entire "
+"window at all times.  Repeat after me: ``The Emacs way is the Only Way!''"
+msgstr ""
+
+#. type: itemize
+#: anti.texi:151
+msgid ""
+"The fancy case conversions of non-ASCII characters used in several locales, "
+"like Turkish and Greek, are removed, leaving the relations between upper and "
+"lower letter-case simple again, as they were in 7-bit ASCII.  Likewise with "
+"ligatures that turn into multiple characters when their letter-case "
+"changes---gone."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:156
+msgid ""
+"Enchant is no longer supported by @code{ispell-buffer} and similar spell-"
+"checking commands.  As Enchant will gradually disappear while you move back "
+"in time, its support will become unnecessary anyway."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:161
+msgid ""
+"Tramp lost its support for Google Drive repositories.  Cloud storage is on "
+"its way to extinction as you move back in time, thus making this feature "
+"redundant."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:166
+msgid ""
+"Several commands, deemed to be unnecessary complications, have been "
+"removed.  Examples include @code{replace-buffer-contents} and @code{apropos-"
+"local-variable}."
+msgstr ""
+
+#. type: itemize
+#: anti.texi:170
+#, fuzzy
+#| msgid ""
+#| "To keep up with decreasing computer memory capacity and disk space, many "
+#| "other functions and files have been eliminated in Emacs 24.5."
+msgid ""
+"To keep up with decreasing computer memory capacity and disk space, many "
+"other functions and files have been eliminated in Emacs 25.3."
+msgstr ""
+"Emacs 24.5では、コンピューターのメモリー容量とディスク容量を削減して、良好な"
+"状態に保つために、その他多くの機能とファイルが削除されました。"
