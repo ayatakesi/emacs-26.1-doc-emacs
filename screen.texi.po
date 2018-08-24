@@ -79,7 +79,7 @@ msgstr "(もしあれば)ツールバーの下とエコーエリアの間の、�
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:40
 msgid "An Emacs window is where the @dfn{buffer}---the text or other graphics you are editing or viewing---is displayed.  On a graphical display, the window possesses a @dfn{scroll bar} on one side, which can be used to scroll through the buffer.  The last line of the window is a @dfn{mode line}.  This displays various information about what is going on in the buffer, such as whether there are unsaved changes, the editing modes that are in use, the current line number, and so forth."
-msgstr "Emacsのウィンドウには、@dfn{バッファー(buffer)} --- 編集、または閲覧していりテキストやグラフィック --- が表示されます。グラフィカルなディスプレーでは、ウィンドウの片側に@dfn{スクロールバー(scroll bar)}あり、これを使ってバッファー内をスクロールできます。ウィンドウのいちばん下の行は、@dfn{モードライン(mode line)}です。これには保存されてない変更や、使用されている編集モード、現在のライン番号など、バッファーについての様々な情報が表示されます。"
+msgstr "Emacsのウィンドウには、@dfn{バッファー(buffer)} --- 編集、または閲覧しているテキストやグラフィック --- が表示されます。グラフィカルなディスプレーでは、ウィンドウの片側に@dfn{スクロールバー(scroll bar)}あり、これを使ってバッファー内をスクロールできます。ウィンドウのいちばん下の行は、@dfn{モードライン(mode line)}です。これには保存されてない変更や、使用されている編集モード、現在のライン番号など、バッファーについての様々な情報が表示されます。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:45

@@ -2698,7 +2698,7 @@ msgstr "query-replace-skip-read-only"
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//search.texi:1568
 msgid "The variable @code{query-replace-skip-read-only}, if set non-@code{nil}, will cause replacement commands to ignore matches in read-only text.  The default is not to ignore them."
-msgstr "変数@code{query-replace-skip-read-only}に非@code{nil}がセットされている場合、罹患コマンドはread-only(読み取り専用)のテキスト内のマッチを無視します。デフォルトでは、それらを無視しません。"
+msgstr "変数@code{query-replace-skip-read-only}に非@code{nil}がセットされている場合、置換コマンドはread-only(読み取り専用)のテキスト内のマッチを無視します。デフォルトでは、それらを無視しません。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//search.texi:1571
