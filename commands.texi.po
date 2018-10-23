@@ -1,35 +1,13 @@
-# Japanese translation of Emacs-25.2 editor manual
+# Japanese translation of Emacs-26.1  editor manual
 # Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Emacs package.
 # Ayanokoji Takesi <ayanokoji.takesi@gmail.com>.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  tmp.penXuSc9SN (25.2)  #-#-#-#-#\n"
-"Project-Id-Version: 25.2\n"
-"POT-Creation-Date: 2018-05-26 23:36+0900\n"
-"PO-Revision-Date: 2018-10-23 12:00+0900\n"
-"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
-"Language-Team: \n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  tmp.R0JJ3Yj0Ji.translated (26.1)  #-#-#-#-#\n"
 "Project-Id-Version: 26.1\n"
 "POT-Creation-Date: 2018-05-26 23:36+0900\n"
-"PO-Revision-Date: 2018-05-26 23:15+0900\n"
-"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
-"Language-Team: \n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  tmp.LkWhGsYH3N.translated (26.1)  #-#-#-#-#\n"
-"Project-Id-Version: 26.1\n"
-"POT-Creation-Date: 2018-05-26 23:36+0900\n"
-"PO-Revision-Date: 2018-05-26 23:15+0900\n"
+"PO-Revision-Date: 2018-10-23 12:12+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -103,7 +81,7 @@ msgstr "control character"
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:39
 msgid "Keyboard input into Emacs is based on a heavily-extended version of @acronym{ASCII}.  Simple characters, like @samp{a}, @samp{B}, @samp{3}, @samp{=}, and the space character (denoted as @key{SPC}), are entered by typing the corresponding key.  @dfn{Control characters}, such as @key{RET}, @key{TAB}, @key{DEL}, @key{ESC}, @key{F1}, @key{Home}, and @key{LEFT}, are also entered this way, as are certain characters found on non-English keyboards (@pxref{International})."
-msgstr "Emacsにたいするキーボード入力は、@acronym{ASCII}を大きく拡張したバージョンが基本となっています。@samp{a}、@samp{B}、@samp{3}、@samp{=}や空白文字(@key{SPC})と表記します)などの単純な文字は、それぞれに対応するキーをタイプして入力します。@key{RET}、@key{TAB}、@key{DEL}、@key{ESC}、@key{F1}、@key{Home}、@key{LEFT}などの制御文字なども、この方法で入力できますし、非英語キーボードの特定の文字も同様です(@ref{International}を参照してください)。"
+msgstr "Emacsにたいするキーボード入力は、@acronym{ASCII}を大きく拡張したバージョンが基本となっています。@samp{a}、@samp{B}、@samp{3}、@samp{=}や空白文字(@key{SPC})と表記します)などの単純な文字は、それぞれに対応するキーをタイプして入力します。@key{RET}、@key{TAB}、@key{DEL}、@key{ESC}、@key{F1}、@key{Home}、@key{LEFT}などの制御文字なども、この方法で入力できますし、非英語キーボードの特定の文字も同様です(@ref{International}を参照)。"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:40
@@ -166,7 +144,7 @@ msgstr "window manager, keys stolen by"
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:74
 msgid "On graphical displays, the window manager might block some keyboard inputs, including @kbd{M-@key{TAB}}, @kbd{M-@key{SPC}}, @kbd{C-M-d} and @kbd{C-M-l}.  If you have this problem, you can either customize your window manager to not block those keys, or rebind the affected Emacs commands (@pxref{Customization})."
-msgstr "グラフィカルなディスプレーでは、ウィンドウマネージャーが@kbd{M-@key{TAB}}、@kbd{M-@key{SPC}}、@kbd{C-M-d}、@kbd{C-M-l}などのキーボード入力をブロックするかもしれません。このような問題がある場合、ウィンドウマネージャーがこれらのキーをブロックしないようにカスタマイズしたり、影響を受けるEmacsのコマンドをリバインド(rebind)したりできます(@ref{Customization}を参照してください)。"
+msgstr "グラフィカルなディスプレーでは、ウィンドウマネージャーが@kbd{M-@key{TAB}}、@kbd{M-@key{SPC}}、@kbd{C-M-d}、@kbd{C-M-l}などのキーボード入力をブロックするかもしれません。このような問題がある場合、ウィンドウマネージャーがこれらのキーをブロックしないようにカスタマイズしたり、影響を受けるEmacsのコマンドをリバインド(rebind)したりできます(@ref{Customization}を参照)。"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:75
@@ -177,7 +155,7 @@ msgstr "input event"
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:81
 msgid "Simple characters and control characters, as well as certain non-keyboard inputs such as mouse clicks, are collectively referred to as @dfn{input events}.  For details about how Emacs internally handles input events, see @ref{Input Events,,, elisp, The Emacs Lisp Reference Manual}."
-msgstr "単純な文字や制御文字、同様にマウスのクリックなどの非キーボード入力は、総じて@dfn{入力イベント(input events)}と呼ばれます。Emacsが内部で入力イベントをどのように処理するかについての詳細は、@ref{Input Events,,, elisp, The Emacs Lisp Reference Manual}を参照してください."
+msgstr "単純な文字や制御文字、同様にマウスのクリックなどの非キーボード入力は、総じて@dfn{入力イベント(input events)}と呼ばれます。Emacsが内部で入力イベントをどのように処理するかについての詳細は、@ref{Input Events,,, elisp, The Emacs Lisp Reference Manual}を参照してください。"
 
 #. type: section
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:82
@@ -223,7 +201,7 @@ msgstr "@dfn{キーシーケンス(key sequence)}、短く書くと@dfn{キー(k
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:113
 msgid "A prefix key combines with the following input event to make a longer key sequence.  For example, @kbd{C-x} is a prefix key, so typing @kbd{C-x} alone does not invoke a command; instead, Emacs waits for further input (if you pause for longer than a second, it echoes the @kbd{C-x} key to prompt for that input; @pxref{Echo Area}).  @kbd{C-x} combines with the next input event to make a two-event key sequence, which could itself be a prefix key (such as @kbd{C-x 4}), or a complete key (such as @kbd{C-x C-f}).  There is no limit to the length of key sequences, but in practice they are seldom longer than three or four input events."
-msgstr "プレフィクスキーは、その後の入力イベントと組み合わせて、もっと長いキーシーケンスを作るためのものです。たとえば@kbd{C-x} はプレフィクスキーなので、@kbd{C-x}と入力しただけではコマンドは呼び出されません。かわりにEmacsは更なる入力を待ちます(もし１秒以上入力がない場合、入力を促すために@kbd{C-x}がエコーされます。@ref{Echo Area}を参照してください)。@kbd{C-x}は、それに続く次の入力イベントと組み合わされる、2イベントのキーシーケンスで、それはプレフィクスキー(@kbd{C-x 4})など)のときもあれば、コンプリートキー(@kbd{C-x C-f}など)のときもあります。キーシーケンスの長さに制限はありませんが、実際に3つ、4つ以上の入力イベントの場合は、ほとんどありません。"
+msgstr "プレフィクスキーは、その後の入力イベントと組み合わせて、もっと長いキーシーケンスを作るためのものです。たとえば@kbd{C-x} はプレフィクスキーなので、@kbd{C-x}と入力しただけではコマンドは呼び出されません。かわりにEmacsは更なる入力を待ちます(もし１秒以上入力がない場合、入力を促すために@kbd{C-x}がエコーされます。@ref{Echo Area}を参照)。@kbd{C-x}は、それに続く次の入力イベントと組み合わされる、2イベントのキーシーケンスで、それはプレフィクスキー(@kbd{C-x 4})など)のときもあれば、コンプリートキー(@kbd{C-x C-f}など)のときもあります。キーシーケンスの長さに制限はありませんが、実際に3つ、4つ以上の入力イベントの場合は、ほとんどありません。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:117
@@ -292,7 +270,7 @@ msgstr "厳密に言えばキーはコマンドにバインドされているだ
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:181
 msgid "Since we are discussing customization, we should tell you about @dfn{variables}.  Often the description of a command will say, ``To change this, set the variable @code{mumble-foo}.'' A variable is a name used to store a value.  Most of the variables documented in this manual are meant for customization: some command or other part of Emacs examines the variable and behaves differently according to the value that you set.  You can ignore the information about variables until you are interested in customizing them.  Then read the basic information on variables (@pxref{Variables}) and the information about specific variables will make sense."
-msgstr "カスタマイズについて議論したので、@dfn{変数(variables)}にもふれておくべきでしょう。コマンドの説明で、``これを変更する場合、変数 @code{mumble-foo}をセットしてください''というときがあります。変数とは、値を保存するときに使用する名前のことです。このマニュアルに記載されている変数は、ほとんどがカスタマイズに関するものです。いくつかのコマンド、およびEmacsのある部分は、変数を調べてその変数にセットされた値により、動作がかわります。カスタマイズに興味がでるまでは、、変数に関する情報は無視してかまいません。その後で変数(@ref{Variables}を参照してください)の基本を読めば、特定の変数についての情報に合点がいくでしょう。"
+msgstr "カスタマイズについて議論したので、@dfn{変数(variables)}にもふれておくべきでしょう。コマンドの説明で、``これを変更する場合、変数 @code{mumble-foo}をセットしてください''というときがあります。変数とは、値を保存するときに使用する名前のことです。このマニュアルに記載されている変数は、ほとんどがカスタマイズに関するものです。いくつかのコマンド、およびEmacsのある部分は、変数を調べてその変数にセットされた値により、動作がかわります。カスタマイズに興味がでるまでは、、変数に関する情報は無視してかまいません。その後で変数(@ref{Variables}を参照)の基本を読めば、特定の変数についての情報に合点がいくでしょう。"
 
 #. type: ifnottex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:184
