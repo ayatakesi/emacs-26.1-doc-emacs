@@ -2275,7 +2275,7 @@ msgstr "file selection dialog, how to disable"
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//frames.texi:1223
 msgid "A file selection window is a special kind of dialog box for asking for file names.  You can customize the variable @code{use-file-dialog} to suppress the use of file selection windows, even if you still want other kinds of dialogs.  This variable has no effect if you have suppressed all dialog boxes with the variable @code{use-dialog-box}."
-msgstr "ファイル選択ウィンドウはファイル名を問うための、特別な種類のダイアログボックスです。変数@code{use-file-dialog}をカスタマイズすれば、他の種類のダイアログボックスの使用して、ファイル選択ウィンドウを使用しないようにできます。変数@code{use-dialog-box}ですべてのダイアログボックスを使用しないようにしている場合、この変数は効果がありません。"
+msgstr "ファイル選択ウィンドウはファイル名を問うための、特別な種類のダイアログボックスです。変数@code{use-file-dialog}をカスタマイズすれば、他の種類のダイアログボックスを使用して、ファイル選択ウィンドウを使用しないようにできます。変数@code{use-dialog-box}ですべてのダイアログボックスを使用しないようにしている場合、この変数は効果がありません。"
 
 #. type: vindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//frames.texi:1224
