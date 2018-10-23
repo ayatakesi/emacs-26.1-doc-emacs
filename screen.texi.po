@@ -3,33 +3,11 @@
 # This file is distributed under the same license as the Emacs package.
 # Ayanokoji Takesi <ayanokoji.takesi@gmail.com>.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  tmp.P83u3OSYVJ (25.2)  #-#-#-#-#\n"
-"Project-Id-Version: 25.2\n"
-"POT-Creation-Date: 2018-05-26 23:37+0900\n"
-"PO-Revision-Date: 2018-05-10 23:18+0900\n"
-"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
-"Language-Team: \n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  tmp.QIQ3FqTh22.translated (26.1)  #-#-#-#-#\n"
 "Project-Id-Version: 26.1\n"
 "POT-Creation-Date: 2018-05-26 23:37+0900\n"
-"PO-Revision-Date: 2018-05-26 23:15+0900\n"
-"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
-"Language-Team: \n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  tmp.lzJj54YVOH.translated (26.1)  #-#-#-#-#\n"
-"Project-Id-Version: 26.1\n"
-"POT-Creation-Date: 2018-05-26 23:37+0900\n"
-"PO-Revision-Date: 2018-05-26 23:15+0900\n"
+"PO-Revision-Date: 2018-10-23 11:09+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -64,7 +42,7 @@ msgstr "frame"
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:17
 msgid "On a graphical display, such as on GNU/Linux using the X Window System, Emacs occupies a graphical window.  On a text terminal, Emacs occupies the entire terminal screen.  We will use the term @dfn{frame} to mean a graphical window or terminal screen occupied by Emacs.  Emacs behaves very similarly on both kinds of frames.  It normally starts out with just one frame, but you can create additional frames if you wish (@pxref{Frames})."
-msgstr "Xウィンドウシステムを使うGNU/Linuxのようなグラフィカルなディスプレーの場合、Emacsはグラフィカルなウィンドウに表示されます。テキスト端末の場合、Emacsは端末スクリーン全体を表示領域として使います。Emacsが占有する画面スクリーンや、グラフィカルなウィンドウを指して、@dfn{フレーム(frame)}という用語を使用します。Emacsの振る舞いは、どちらのフレームでも同じです。通常は1個のフレームだけで始まりますが、必要ならば新たにフレームを作れます(@ref{Frames}を参照してください)。"
+msgstr "Xウィンドウシステムを使うGNU/Linuxのようなグラフィカルなディスプレーの場合、Emacsはグラフィカルなウィンドウに表示されます。テキスト端末の場合、Emacsは端末スクリーン全体を表示領域として使います。Emacsが占有する画面スクリーンや、グラフィカルなウィンドウを指して、@dfn{フレーム(frame)}という用語を使用します。Emacsの振る舞いは、どちらのフレームでも同じです。通常は1個のフレームだけで始まりますが、必要ならば新たにフレームを作れます(@ref{Frames}を参照)。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:25
@@ -84,7 +62,7 @@ msgstr "Emacsのウィンドウには、@dfn{バッファー(buffer)} --- 編集
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:45
 msgid "When you start Emacs, there is normally only one window in the frame.  However, you can subdivide this window horizontally or vertically to create multiple windows, each of which can independently display a buffer (@pxref{Windows})."
-msgstr "Emacsを起動すると、通常フレームには1つのウィンドウが表示されます。しかしこのウィンドウを水平方向、または垂直方向に分割して複数のウィンドウを作成し、それぞれ異なるバッファーを表示することもできます(@ref{Windows}を参照してください)。"
+msgstr "Emacsを起動すると、通常フレームには1つのウィンドウが表示されます。しかしこのウィンドウを水平方向、または垂直方向に分割して複数のウィンドウを作成し、それぞれ異なるバッファーを表示することもできます(@ref{Windows}を参照)。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:56
@@ -198,7 +176,7 @@ msgstr "echoing"
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:115
 msgid "The echo area is so-named because one of the things it is used for is @dfn{echoing}, which means displaying the characters of a multi-character command as you type.  Single-character commands are not echoed.  Multi-character commands (@pxref{Keys}) are echoed if you pause for more than a second in the middle of a command.  Emacs then echoes all the characters of the command so far, to prompt you for the rest.  Once echoing has started, the rest of the command echoes immediately as you type it.  This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback."
-msgstr "エコーエリアという名前は、あなたが打った文字が@dfn{エコーされる}ことが由来で、これは複数の文字からなるコマンドが表示されることを意味します。1文字のコマンドをエコーすることはありません。複数の文字からなるコマンド(@ref{Keys}を参照してください)の途中で、入力中に1秒以上間を置くとエコーされます。Emacsはそれまでに入力されたコマンドの文字を表示し、ユーザーに残りの文字の入力を促します。いったんエコーが始まると、コマンドの残りは、打つと同時にただちにエコーされます。これは、タイプに自信のあるユーザーには速い応答を提供する一方で、自信のないユーザーには最大限のフィードバックを与えるための機能です。"
+msgstr "エコーエリアという名前は、あなたが打った文字が@dfn{エコーされる}ことが由来で、これは複数の文字からなるコマンドが表示されることを意味します。1文字のコマンドをエコーすることはありません。複数の文字からなるコマンド(@ref{Keys}を参照)の途中で、入力中に1秒以上間を置くとエコーされます。Emacsはそれまでに入力されたコマンドの文字を表示し、ユーザーに残りの文字の入力を促します。いったんエコーが始まると、コマンドの残りは、打つと同時にただちにエコーされます。これは、タイプに自信のあるユーザーには速い応答を提供する一方で、自信のないユーザーには最大限のフィードバックを与えるための機能です。"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:116
@@ -249,7 +227,7 @@ msgstr "message-log-max"
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:148
 msgid "Informative echo area messages are saved in a special buffer named @file{*Messages*}.  (We have not explained buffers yet; see @ref{Buffers}, for more information about them.)  If you miss a message that appeared briefly on the screen, you can switch to the @file{*Messages*} buffer to see it again.  The @file{*Messages*} buffer is limited to a certain number of lines, specified by the variable @code{message-log-max}.  (We have not explained variables either; see @ref{Variables}, for more information about them.)  Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end."
-msgstr "エコーエリアに表示される有益なメッセージは、@file{*Messages*}と呼ばれる特別なバッファーに保存されます(まだバッファーについては説明していませんが、詳細は@ref{Buffers}を参照してください)。画面上に短時間しか表示されないメッセージを見逃してしまった場合には、@file{*Messages*}バッファーに切り替えて、もう一度そのメッセージを見ることができます。@file{*Messages*}のサイズは、ある行数に制限されています。変数@code{message-log-max}は、その行数を指定します(まだ変数については説明していませんが、詳細は@ref{Variables}を参照してください)。いったんバッファーがこの行数を超えると、最後に1行加わるごとに先頭の1行を削除します。"
+msgstr "エコーエリアに表示される有益なメッセージは、@file{*Messages*}と呼ばれる特別なバッファーに保存されます(まだバッファーについては説明していませんが、詳細は@ref{Buffers}を参照)。画面上に短時間しか表示されないメッセージを見逃してしまった場合には、@file{*Messages*}バッファーに切り替えて、もう一度そのメッセージを見ることができます。@file{*Messages*}のサイズは、ある行数に制限されています。変数@code{message-log-max}は、その行数を指定します(まだ変数については説明していませんが、詳細は@ref{Variables}を参照)。いったんバッファーがこの行数を超えると、最後に1行加わるごとに先頭の1行を削除します。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:151
@@ -308,12 +286,12 @@ msgstr "@var{cs}とその後ろのコロンは、カレントバッファーの�
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:196
 msgid "@var{cs} describes the character set of the text in the buffer (@pxref{Coding Systems}).  If it is a dash (@samp{-}), that indicates no special character set handling (with the possible exception of end-of-line conventions, described in the next paragraph).  @samp{=} means no conversion whatsoever, and is usually used for files containing non-textual data.  Other characters represent various @dfn{coding systems}---for example, @samp{1} represents ISO Latin-1."
-msgstr "@var{cs}はバッファーのキャラクターセットを説明します(@ref{Coding Systems}を参照してください)。もしこれがダッシュ(@samp{-})の場合、特定のキャラクターセットの処理が行われていないことを意味します(例外として、以降で説明する行末規則があります)。@samp{=}の場合は、変換が行われていないことを意味し、通常はテキストに非テキストデータが含まれているときに使用されます。他の文字はさまざまな@dfn{コーディングシステム(coding systems)} --- たとえば@samp{1}はISO Latin-1を表します。"
+msgstr "@var{cs}はバッファーのキャラクターセットを説明します(@ref{Coding Systems}を参照)。もしこれがダッシュ(@samp{-})の場合、特定のキャラクターセットの処理が行われていないことを意味します(例外として、以降で説明する行末規則があります)。@samp{=}の場合は、変換が行われていないことを意味し、通常はテキストに非テキストデータが含まれているときに使用されます。他の文字はさまざまな@dfn{コーディングシステム(coding systems)} --- たとえば@samp{1}はISO Latin-1を表します。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:202
 msgid "On a text terminal, @var{cs} is preceded by two additional characters that describe the coding systems for keyboard input and terminal output.  Furthermore, if you are using an input method, @var{cs} is preceded by a string that identifies the input method (@pxref{Input Methods})."
-msgstr "テキスト端末では@var{cs}の前に追加で2つの文字が表示され、それによりキーボード入力と端末出力のコーディングシステムが示されます。さらに何らかの入力メソッドを使用している場合は、@var{cs}の前に入力メソッドを識別する文字列が表示されます(@ref{Input Methods}を参照してください)。"
+msgstr "テキスト端末では@var{cs}の前に追加で2つの文字が表示され、それによりキーボード入力と端末出力のコーディングシステムが示されます。さらに何らかの入力メソッドを使用している場合は、@var{cs}の前に入力メソッドを識別する文字列が表示されます(@ref{Input Methods}を参照)。"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:203
@@ -339,12 +317,12 @@ msgstr "モードラインの次の要素は@var{ch}で示される文字列で�
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:233
 msgid "The character after @var{ch} is normally a dash (@samp{-}).  However, if @code{default-directory} (@pxref{File Names}) for the current buffer is on a remote machine, @samp{@@} is displayed instead."
-msgstr "通常、@var{ch}の後ろの文字はダッシュ(@samp{-})です。しかしカレントバッファーの@code{default-directory} (@ref{File Names}を参照)がリモートマシン上(@ref{File Names}を参照してください)にある場合、かわりに@samp{@@}が表示されます。"
+msgstr "通常、@var{ch}の後ろの文字はダッシュ(@samp{-})です。しかしカレントバッファーの@code{default-directory} (@ref{File Names}を参照)がリモートマシン上(@ref{File Names}を参照)にある場合、かわりに@samp{@@}が表示されます。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:236
 msgid "@var{fr} gives the selected frame name (@pxref{Frames}).  It appears only on text terminals.  The initial frame's name is @samp{F1}."
-msgstr "@var{fr}は選択されているフレームの名前です(@ref{Frames}を参照してください)。これはテキスト端末でだけ表示されます。フレーム名の初期値は@samp{F1}です。"
+msgstr "@var{fr}は選択されているフレームの名前です(@ref{Frames}を参照)。これはテキスト端末でだけ表示されます。フレーム名の初期値は@samp{F1}です。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:240
@@ -359,12 +337,12 @@ msgstr "@var{pos}はウィンドウの上またはウィンドウの下に、ま
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:253
 msgid "@var{line} is the character @samp{L} followed by the line number at point.  (You can display the current column number too, by turning on Column Number mode.  @xref{Optional Mode Line}.)"
-msgstr "@var{line}は、@samp{L}のあとに現在ポイントがある行の番号が続いたものです(Column Number(列番号)モードをオンにすると、現在の列番号も表示できます。@ref{Optional Mode Line}を参照してください)。"
+msgstr "@var{line}は、@samp{L}のあとに現在ポイントがある行の番号が続いたものです(Column Number(列番号)モードをオンにすると、現在の列番号も表示できます。@ref{Optional Mode Line}を参照)。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:260
 msgid "@var{major} is the name of the @dfn{major mode} used in the buffer.  A major mode is a principal editing mode for the buffer, such as Text mode, Lisp mode, C mode, and so forth.  @xref{Major Modes}.  Some major modes display additional information after the major mode name.  For example, Compilation buffers and Shell buffers display the status of the subprocess."
-msgstr "majorは、そのバッファの@dfn{メジャーモード(major mode)}の名前です。メジャーモードはバッファーを編集する際の主要なモードで、Textモード、Lispモード、Cモードなどがあります。@ref{Major Modes}を参照してください。メジャーモード名の後ろに追加の情報を表示するメジャーモードもあります。たとえばCompilation buffer(コンパイルバッファー)やShell buffer(Shellバッファー)などは、サブプロセスの状態を表示します。"
+msgstr "@var{major}は、そのバッファの@dfn{メジャーモード(major mode)}の名前です。メジャーモードはバッファーを編集する際の主要なモードで、Textモード、Lispモード、Cモードなどがあります。@ref{Major Modes}を参照してください。メジャーモード名の後ろに追加の情報を表示するメジャーモードもあります。たとえばCompilation buffer(コンパイルバッファー)やShell buffer(Shellバッファー)などは、サブプロセスの状態を表示します。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:264
@@ -374,19 +352,17 @@ msgstr "@var{minor}は有効になっている@dfn{マイナーモード(minor m
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:271
 msgid "Some features are listed together with the minor modes whenever they are turned on, even though they are not really minor modes.  @samp{Narrow} means that the buffer being displayed has editing restricted to only a portion of its text (@pxref{Narrowing}).  @samp{Def} means that a keyboard macro is currently being defined (@pxref{Keyboard Macros})."
-msgstr "いくつかの機能は、それらが本当はマイナーモードではなくても、有効になっていればマイナーモードの一覧とともに表示されます。@samp{Narrow}は、表示中のバッファーが、そのテキストの一部のみを編集するように制限されていることを示します(@ref{Narrowing}を参照してください)。@samp{Def}は、キーボードマクロを定義中であることを示します(@ref{Keyboard Macros}を参照してください)。"
+msgstr "いくつかの機能は、それらが本当はマイナーモードではなくても、有効になっていればマイナーモードの一覧とともに表示されます。@samp{Narrow}は、表示中のバッファーが、そのテキストの一部のみを編集するように制限されていることを示します(@ref{Narrowing}を参照)。@samp{Def}は、キーボードマクロを定義中であることを示します(@ref{Keyboard Macros}を参照)。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:278
 msgid "In addition, if Emacs is inside a recursive editing level, square brackets (@samp{[@dots{}]}) appear around the parentheses that surround the modes.  If Emacs is in one recursive editing level within another, double square brackets appear, and so on.  Since recursive editing levels affect Emacs globally, such square brackets appear in the mode line of every window.  @xref{Recursive Edit}."
-msgstr "さらにEmacsがリカーシブエディットにあるときには、モードを囲んでいるカッコの周りに角カッコ(@samp{[@dots{}]})が現れます。リカーシブエディット中も別のリカーシブエディットに入ると、角カッコは2重になります。リカーシブエディットは、特定のバッファにだけ関係するものではなく、Emacs全体に影響するので、角カッコはすべてのウィンドウのモード行に表示されるか、まったく表示されないのどちらかです。@ref{Recursive Edit}を参照してください。"
+msgstr "さらにEmacsが再帰編集(recursive edit)にあるときには、モードを囲んでいるカッコの周りに角カッコ(@samp{[@dots{}]})が現れます。再帰編集中も別の再帰編集に入ると、角カッコは2重になります。再帰編集は、特定のバッファにだけ関係するものではなく、Emacs全体に影響するので、角カッコはすべてのウィンドウのモード行に表示されるか、まったく表示されないのどちらかです。@ref{Recursive Edit}を参照してください。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:286
 msgid "You can change the appearance of the mode line as well as the format of its contents.  @xref{Optional Mode Line}.  In addition, the mode line is mouse-sensitive; clicking on different parts of the mode line performs various commands.  @xref{Mode Line Mouse}.  Also, hovering the mouse pointer above mouse-sensitive portions of the mode line shows tooltips (@pxref{Tooltips}) with information about commands you can invoke by clicking on the mode line."
-msgstr ""
-"モードラインの外観は、その内容の書式と同様、変更できます。@ref{Optional Mode Line}を参照してください。さらにモードラインはマウスに反応します。モードラインの違う部分をクリックすることでさまざまなコマンドを実行できます。@ref{Mode Line Mouse}を参照してください。また、モードラインのマウス感応範囲上でマウスポインターをホバリングすると、モードライン上でクリックして呼び出すことができるコマンドに関する情報を表示するツールチップ(@ref{Tooltips}を参照)が表示されます。\n"
-"Also, hovering the mouse pointer above mouse-sensitive portions of the mode line shows tooltips (@pxref{Tooltips}) with information about commands you can invoke by clicking on the mode line."
+msgstr "モードラインの外観は、その内容の書式と同様、変更できます。@ref{Optional Mode Line}を参照してください。さらにモードラインはマウスに反応します。モードラインの違う部分をクリックすることでさまざまなコマンドを実行できます。@ref{Mode Line Mouse}を参照してください。また、モードラインのマウス感応範囲上でマウスポインターをホバリングすると、モードライン上でクリックして呼び出すことができるコマンドに関する情報を表示するツールチップ(@ref{Tooltips}を参照)が表示されます。また、モードラインのマウスセンシティブ(mouse-sensitive: マウス感応)な部分の上にマウスをホバリングすると、モードライン上をクリックして呼び出せるコマンドに関する情報がツールチップ(@ref{Tooltips}を参照)が表示されます。"
 
 #. type: section
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:288
@@ -408,12 +384,12 @@ msgstr "各Emacsフレームには通常、最上部に@dfn{メニューバー(m
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:300
 msgid "On a display that supports a mouse, you can use the mouse to choose a command from the menu bar.  An arrow on the right edge of a menu item means it leads to a subsidiary menu, or @dfn{submenu}.  A @samp{...} at the end of a menu item means that the command will prompt you for further input before it actually does anything."
-msgstr "マウスをサポートするディスプレー上では、マウスを使ってメニューバーからコマンドを選ぶことができます。メニューアイテムの後にある右矢印は、そのアイテムにサブメニューがあることを示します。アイテムの最後に@samp{...}がある場合は、コマンドを実際に実行する前に、そのコマンドがキーボードから引数を読み取ることを意味します。"
+msgstr "マウスをサポートするディスプレー上では、マウスを使ってメニューバーからコマンドを選ぶことができます。メニューアイテムの後にある右矢印は、そのアイテムに@dfn{サブメニュー(submenu)}があることを示します。アイテムの最後に@samp{...}がある場合は、コマンドを実際に実行する前に、そのコマンドがキーボードから引数を読み取ることを意味します。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:306
 msgid "Some of the commands in the menu bar have ordinary key bindings as well; if so, a key binding is shown after the item itself.  To view the full command name and documentation for a menu item, type @kbd{C-h k}, and then select the menu bar with the mouse in the usual way (@pxref{Key Help})."
-msgstr "メニューのコマンドの中には、他のコマンドと同様、キーが割り当てられているものもあります。そのような場合、メニューのアイテムの後にキーバインディングが表示されます。メニューアイテムの完全なコマンド名や説明文を見るには、@kbd{C-h k}とタイプしてから、通常どおりにマウスでメニューバーを選択してください(@ref{Key Help}を参照してください)。"
+msgstr "メニューのコマンドの中には、他のコマンドと同様、キーが割り当てられているものもあります。そのような場合、メニューのアイテムの後にキーバインディングが表示されます。メニューアイテムの完全なコマンド名や説明文を見るには、@kbd{C-h k}とタイプしてから、通常どおりにマウスでメニューバーを選択してください(@ref{Key Help}を参照)。"
 
 #. type: kindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//screen.texi:307
