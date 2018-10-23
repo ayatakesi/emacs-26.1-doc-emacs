@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  tmp.penXuSc9SN (25.2)  #-#-#-#-#\n"
 "Project-Id-Version: 25.2\n"
 "POT-Creation-Date: 2018-05-26 23:36+0900\n"
-"PO-Revision-Date: 2018-05-10 23:27+0900\n"
+"PO-Revision-Date: 2018-10-23 12:00+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -282,7 +282,7 @@ msgstr "キーとコマンドの間のバインディングは、@dfn{keymaps}�
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:162
 msgid "When we say that ``@kbd{C-n} moves down vertically one line'' we are glossing over a subtle distinction that is irrelevant in ordinary use, but vital for Emacs customization.  The command @code{next-line} does a vertical move downward.  @kbd{C-n} has this effect @emph{because} it is bound to @code{next-line}.  If you rebind @kbd{C-n} to the command @code{forward-word}, @kbd{C-n} will move forward one word instead."
-msgstr "``@kbd{C-n}は下に1行動きます''という言い方は、通常の使用では関係ないが、Emacsをカスタマイズする上では重要になる点を隠蔽しています。1行下に移動するコマンドは@code{next-line}です。@kbd{C-n}が@code{next-line}にバインドされているから効果があるのです。もし@kbd{C-n}をコマンド@code{forward-word}にリバインドしたら、@kbd{C-n}で1語前方に動くことになります。"
+msgstr "``@kbd{C-n}は下に1行動きます''という言い方は、通常の使用では関係ないものの、Emacsをカスタマイズする上では重要になる点を隠蔽しています。1行下に移動するコマンドは@code{next-line}です。@kbd{C-n}が@code{next-line}にバインドされているから効果があるのです。もし@kbd{C-n}をコマンド@code{forward-word}にリバインドしたら、@kbd{C-n}で1語前方に動くことになります。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:170
@@ -292,7 +292,7 @@ msgstr "厳密に言えばキーはコマンドにバインドされているだ
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:181
 msgid "Since we are discussing customization, we should tell you about @dfn{variables}.  Often the description of a command will say, ``To change this, set the variable @code{mumble-foo}.'' A variable is a name used to store a value.  Most of the variables documented in this manual are meant for customization: some command or other part of Emacs examines the variable and behaves differently according to the value that you set.  You can ignore the information about variables until you are interested in customizing them.  Then read the basic information on variables (@pxref{Variables}) and the information about specific variables will make sense."
-msgstr "カスタマイズについて議論したので、@dfn{変数(variables)}にもふれておくべきでしょう。コマンドの説明で、``これを変更する場合、変数 @code{mumble-foo}をセットしてください''というときがあります。変数とは、値を保存するときに使用する名前のことです。このマニュアルに記載されている変数は、ほとんどがカスタマイズに関するものです。いくつかのコマンド、およびEmacsのある部分は、変数調べてその変数にセットされた値により、動作がかわります。カスタマイズに興味がでるまでは、、変数に関する情報は無視してかまいません。その後で変数(@ref{Variables}を参照してください)の基本を読めば、特定の変数についての情報に合点がいくでしょう。"
+msgstr "カスタマイズについて議論したので、@dfn{変数(variables)}にもふれておくべきでしょう。コマンドの説明で、``これを変更する場合、変数 @code{mumble-foo}をセットしてください''というときがあります。変数とは、値を保存するときに使用する名前のことです。このマニュアルに記載されている変数は、ほとんどがカスタマイズに関するものです。いくつかのコマンド、およびEmacsのある部分は、変数を調べてその変数にセットされた値により、動作がかわります。カスタマイズに興味がでるまでは、、変数に関する情報は無視してかまいません。その後で変数(@ref{Variables}を参照してください)の基本を読めば、特定の変数についての情報に合点がいくでしょう。"
 
 #. type: ifnottex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:184
