@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  tmp.PwyGq8gJb1 (25.2)  #-#-#-#-#\n"
 "Project-Id-Version: 25.2\n"
 "POT-Creation-Date: 2018-05-26 23:36+0900\n"
-"PO-Revision-Date: 2018-05-12 07:28+0900\n"
+"PO-Revision-Date: 2019-02-26 11:31+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -139,7 +139,7 @@ msgstr "Exiting"
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//entering.texi:93
 #, no-wrap
 msgid "Exiting Emacs"
-msgstr "Exiting Emacs"
+msgstr "Emacsからのexit"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//entering.texi:94

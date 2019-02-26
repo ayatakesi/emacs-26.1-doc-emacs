@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 26.1\n"
 "POT-Creation-Date: 2018-05-26 23:36+0900\n"
-"PO-Revision-Date: 2018-10-23 12:12+0900\n"
+"PO-Revision-Date: 2019-02-26 11:29+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -41,7 +41,7 @@ msgstr "User Input"
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:19
 #, no-wrap
 msgid "Kinds of User Input"
-msgstr "Kinds of User Input"
+msgstr "ユーザー入力の種類"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:20
@@ -228,7 +228,7 @@ msgstr "Commands"
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:136
 #, no-wrap
 msgid "Keys and Commands"
-msgstr "Keys and Commands"
+msgstr "キーとコマンド"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//commands.texi:138

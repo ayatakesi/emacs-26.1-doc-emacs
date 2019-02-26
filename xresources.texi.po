@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  tmp.DiJnaWY7mn (25.2)  #-#-#-#-#\n"
 "Project-Id-Version: 25.2\n"
 "POT-Creation-Date: 2018-05-26 23:37+0900\n"
-"PO-Revision-Date: 2018-05-23 12:59+0900\n"
+"PO-Revision-Date: 2019-02-26 23:58+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -68,7 +68,7 @@ msgstr "GTK+リソースで決定されるので、これについても説明�
 #. type: iftex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//xresources.texi:19
 msgid "GTK+ resources."
-msgstr "GTK+ resources."
+msgstr "GTK+リソースで決定されます。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//xresources.texi:22
@@ -1284,7 +1284,7 @@ msgstr "GTK+ウィジェットの何がカスタマイズできるか。"
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//xresources.texi:562
 #, no-wrap
 msgid "GTK+ Resource Basics"
-msgstr "GTK+ Resource Basics"
+msgstr "GTK+リソースの基本"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//xresources.texi:568

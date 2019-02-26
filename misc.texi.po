@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  tmp.KdQ7gFDeP2 (25.2)  #-#-#-#-#\n"
 "Project-Id-Version: 25.2\n"
 "POT-Creation-Date: 2018-05-26 23:36+0900\n"
-"PO-Revision-Date: 2018-05-20 23:47+0900\n"
+"PO-Revision-Date: 2019-02-26 11:48+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -64,7 +64,7 @@ msgstr "Gnus"
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//misc.texi:24
 #, no-wrap
 msgid "Email and Usenet News with Gnus"
-msgstr "Email and Usenet News with Gnus"
+msgstr "GnusによるEメールとUsenetニュース"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//misc.texi:26
@@ -5699,7 +5699,7 @@ msgstr "Hyperlinking"
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//misc.texi:2734
 #, no-wrap
 msgid "Hyperlinking and Web Navigation Features"
-msgstr "Hyperlinking and Web Navigation Features"
+msgstr "ハイパーリンクとWebナビゲーション機能"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//misc.texi:2738
@@ -6251,7 +6251,7 @@ msgstr "Amusements"
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//misc.texi:2921
 #, no-wrap
 msgid "Games and Other Amusements"
-msgstr "Games and Other Amusements"
+msgstr "ゲーム、その他の娯楽"
 
 #. type: cindex
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//misc.texi:2922

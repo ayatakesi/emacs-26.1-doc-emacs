@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  tmp.j1afqEIdoT (25.2)  #-#-#-#-#\n"
 "Project-Id-Version: 25.2\n"
 "POT-Creation-Date: 2018-05-26 23:36+0900\n"
-"PO-Revision-Date: 2018-05-13 02:57+0900\n"
+"PO-Revision-Date: 2019-02-26 20:24+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -3048,7 +3048,7 @@ msgstr "patchには変更された行の行末に、無意識に入力された�
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//files.texi:1582
 #, no-wrap
 msgid "Copying, Naming and Renaming Files"
-msgstr "Copying, Naming and Renaming Files"
+msgstr "ファイルのコピー、命名、リネーム。"
 
 #. type: Plain text
 #: /data/data/com.termux/files/home/work/emacs/doc/emacs//files.texi:1588
